@@ -1,0 +1,88 @@
+.daily-tips-page {
+    padding: 20px;
+}
+
+.daily-tips-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.daily-tips-intro {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.tips-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.tip-container {
+    width: 100%;
+    max-width: 800px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.type-intro-box {
+    background-color: #ffd90046; 
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.tip-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tip-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.tip-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.tip-text h2 {
+    margin-top: 0;
+    color: #333;
+    text-align: center;
+}
+
+.tip-text p {
+    color: #666; 
+    font-weight: normal;
+    line-height: 1.6;
+    text-align: justify;
+    
+}
+
+
+
+
+
+
+
+
+
+

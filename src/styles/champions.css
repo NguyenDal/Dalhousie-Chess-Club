@@ -1,0 +1,71 @@
+.tournament-dropdown {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tournament-dropdown select {
+    margin-right: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: black;
+    background-color: #f8f8f8;
+    border: none;
+}
+
+.tournament-dropdown select:hover {
+    background-color: #FFD400;
+}
+
+#tournament-select {
+    margin-left: 15px;
+}
+
+
+/* Other styles for the Champions page */
+.champions-page {
+    padding: 20px;
+}
+
+.champions-page h1 {
+    text-align: center;
+}
+
+.champions-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.champions-table th, .champions-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.champions-table th {
+    background-color: #FFD400;
+    color: black;
+}
+
+.champions-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.champions-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons-container button {
+    margin: 0 5px;
+}

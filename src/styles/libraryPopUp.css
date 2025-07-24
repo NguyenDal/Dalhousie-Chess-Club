@@ -1,0 +1,51 @@
+.library-popup-background {
+    position: fixed;
+    border-radius: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.library-popup-content {
+    position: relative;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    width: 90%; /* Adjusted the width to be responsive */
+    max-width: 600px;
+    max-height: 80%; /* Ensuring that the popup does not exceed 80% of the screen's height */
+    background-color: white;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto; /* Enable vertical scrolling for the entire popup */
+}
+
+.library-popup-content img {
+    width: 80%;
+    height: auto;
+    /*max-height: 400px;*/
+    margin-bottom: 20px;
+}
+
+.library-popup-details {
+    width: 100%;
+    padding-right: 10px; /* Add padding to avoid content getting hidden behind scrollbar */
+}
+
+.library-popup-content button {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+.library-popup-content h3, .library-popup-content p {
+    margin: 10px 0;
+}

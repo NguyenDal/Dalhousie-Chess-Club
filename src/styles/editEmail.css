@@ -1,0 +1,121 @@
+
+.editPage-container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+.editing-container {
+    margin-top: 20px;
+}
+
+.events-table { /* Table styling */
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.events-table th, .events-table td { /* Table cells */
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.events-table th { /* Table header */
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.events-table tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+
+/* Button styling */
+.events-table button {
+    background-color: #FFD400;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    font-weight: 500;
+}
+
+.events-table button:hover {
+    background-color: #000000;
+    color: #FFD400;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .events-table th, .events-table td {
+        padding: 8px;
+    }
+
+    button {
+        padding: 4px 8px;
+        font-size: 0.85em;
+    }
+}
+.edit-email-form-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.edit-email-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.edit-email-form input,
+.edit-email-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.edit-email-form button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.edit-email-form button[type="button"] {
+    background-color: #6c757d;
+}
+
+.edit-email-form button:hover {
+    opacity: 0.9;
+}

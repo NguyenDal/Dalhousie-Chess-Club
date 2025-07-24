@@ -1,0 +1,124 @@
+.add-form-container {
+  text-align: center;
+}
+
+.form-A,
+.form-B,
+.form-C,
+.form-container {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.text-form,
+.text-form-c,
+.date-form,
+.dropdown-form {
+  width: 100%;
+  font-size: 14pt;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.header-info p {
+  text-align: center; 
+}
+
+.header-info h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.participant-table th, .participant-table td {
+  padding: 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+  font-size: 16px;
+}
+
+.participant-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.participant-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.participant-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.submit-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.submit-button-container button {
+  width: 250%;
+  padding: 10px;
+  background-color: #FFD400;
+  color: #000000;
+  font-weight: 550;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.submit-button-container button:hover {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.list-group {
+  display: flex;
+  flex-direction: column;
+  /*background-color: #007aff;*/
+  margin-left: 35vw;
+}
+
+.approval-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.approval-buttons button {
+  width: 100%;
+  padding: 10px;
+  background-color: #FFD400;
+  color: #000000;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.approval-buttons button:hover {
+  background-color: #ffce00;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .approval-buttons {
+    flex-direction: column; /* Stack buttons vertically on smaller screens */
+    gap: 25px;
+  }
+
+  .approval-buttons button {
+    max-width: 100%; /* Allow buttons to expand fully within the cell */
+    padding: 8px;
+  }
+}

@@ -1,0 +1,95 @@
+.editPage-container {
+    padding: 20px;
+  }
+  
+  .editing-container {
+    margin-top: 20px;
+  }
+  
+  .faq-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .faq-table th, .faq-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    font-weight: normal; 
+  }
+  
+  .faq-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .buttons-container {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+  }
+  
+  .faq-table button {
+    background-color: #FFD400;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .faq-table button:hover {
+    background-color: #000000;
+    color: #FFD400;
+  }
+  
+  .edit-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; 
+  }
+  
+  .edit-form {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 40px;
+    width: 100%; 
+    max-width: 1000px; 
+    background-color: #f9f9f9;
+  }
+  
+  .edit-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .edit-form input,
+  .edit-form textarea,
+  .edit-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .edit-form button {
+    background-color: #FFD400;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-form button:hover {
+    background-color: #000000;
+    color: #FFD400;
+  }
+  
+  .edit-form .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  

@@ -1,0 +1,173 @@
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .edit-form-container {
+    /* max-width: 900px; */
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f0f4f0;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    transition: transform 0.3s;
+    overflow: auto;
+    height: 100% !important;
+  }
+  
+  .add-form-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    transition: transform 0.3s;
+  }
+  
+  .add-form-container:hover {
+    transform: scale(1.02);
+  }
+  
+  .header-info {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  #main-header {
+    font-size: 28px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  .form-combined {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .form-element {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-element label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .text-form {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+  }
+  
+  .text-form:focus {
+    border-color: #1a73e8;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgba(26, 115, 232, 0.5);
+    outline: none;
+  }
+  
+  .checkbox-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px 30px; 
+  }
+  
+  .checkbox-group div {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox-group div:hover {
+    background-color: #e7f0fd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .checkbox-group input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    accent-color: #1a73e8;
+  }
+  
+  .checkbox-group label {
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .success-message {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .submit-button-container {
+    display: flex;
+    justify-content:space-between;
+  }
+  
+  .submit-button-container button {
+    padding: 14px 28px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .submit-button-container button:hover {
+    background-color: #155abc;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .volunteers-table .buttons-container button {
+    padding: 6px 12px;  /* Small padding for compact appearance */
+    font-size: 14px;  /* Smaller font size for button text */
+    background-color: #1a73e8;  /* Uniform background color for buttons */
+    color: white;  /* White text color */
+    border: none;  /* No borders */
+    border-radius: 4px;  /* Rounded corners for aesthetics */
+    cursor: pointer;  /* Cursor to pointer to indicate clickable */
+    margin-right: 5px;  /* Right margin for spacing between buttons */
+    width: auto;  /* Auto width to contain text and padding */
+}
+
+.volunteers-table .buttons-container button:hover {
+    background-color: #155abc;  /* Slightly darker blue on hover for feedback */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
+}
+
+
+  
+  @media (max-width: 768px) {
+    .add-form-container {
+      width: 90%;
+      margin: 20px auto;
+    }
+  
+    .checkbox-group {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  

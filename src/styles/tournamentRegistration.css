@@ -1,0 +1,148 @@
+.forgotPassword-container {
+    text-align: center;
+  }
+
+  .emailFormDiv {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  .emailText-form {
+    width: 100%;
+    font-size: 14pt;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+
+  .forgotPassword-header {
+    margin-top: 50px;
+  }
+
+
+  .forgotPassword-header p {
+    text-align: center; 
+  }
+
+  .forgotPassword-header h1 {
+    text-align: center;
+  }
+
+  .reset-submit-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .reset-submit-container button {
+    width: 100px;
+    padding: 10px;
+    background-color: #FFD400;
+    color: #000000;
+    font-weight: 550;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .reset-submit-container button:hover {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .message {
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 50px;
+    font-size: 14pt;
+    font-weight: bold;
+  }
+
+  .form-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+
+.participants-register-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  width: 100%; 
+  margin-top: 10px; 
+  padding: 0 10px; 
+}
+
+
+.participants-text {
+  flex-grow: 1; 
+  margin-right: 10px;
+}
+
+
+.register-now-button {
+  padding: 5px 20px;
+  background-color: #FFD400; 
+  color: black; 
+  font-weight: bold; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  min-width: 120px;
+  margin-bottom: 10px;
+}
+
+
+.register-now-button:hover {
+  background-color: #242424; 
+  color: #FFD400; 
+}
+
+.subscriptionMessage-container {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.subscriptionMessage-container p {
+  text-align: center;
+}
+
+.subscribe-button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.subscribe-button-container a {
+  text-decoration: none;
+}
+
+.subscribe-button-container button {
+  width: 100px;
+  padding: 10px;
+  background-color: #FFD400;
+  color: #000000;
+  font-weight: 550;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.subscribe-button-container button:hover {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}

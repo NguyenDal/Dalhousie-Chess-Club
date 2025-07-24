@@ -1,0 +1,314 @@
+.homeTitle {
+  padding-top: 10px;
+  font-size: 20pt;
+}
+
+.slider-item {
+  position: relative;
+}
+
+.slider-text{
+  background-color: white;
+  bottom: 2px;
+  /*width: 100%;*/
+  margin-bottom: 20px;
+  margin-left: 8vw;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.slider-text p{
+  color: black;
+  text-align: center;
+}
+.carousel-caption {
+  position: absolute;
+  top: 80%;
+  left: 35%;
+  transform: translate(-50%, -10%);
+  text-align: center;
+  color: #fff;
+}
+
+.image-container {
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.zoom-image {
+  transition: transform 1.0s;
+}
+
+.zoom-image:hover {
+  transform: scale(2.2);
+}
+
+.professional-tabs .nav-link {
+  color: #333;
+}
+
+.professional-tabs .nav-link.active {
+  font-weight: bold;
+}
+
+.professional-tabs .nav-item {
+  margin-right: 10px;
+}
+
+.professional-tabs .nav-item:last-child {
+  margin-right: 0;
+}
+
+.professional-tabs .nav-link:hover {
+  color: #007bff;
+}
+
+#share-dropdown {
+  background: #ffffff !important;
+  border: none;
+}
+
+#cardHover {
+  overflow: hidden;
+}
+
+#cardimg {
+  object-fit: contain;
+  padding-left: 0px;
+  padding-right: 0px;
+  transition: 400ms all;
+  width: 100%;
+}
+
+#cardimg:hover {
+  scale: 1.5;
+}
+
+.cardCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-5 {
+  padding-bottom: 20px;
+}
+
+.cardContent{
+  text-align: center;
+  font-weight: bold !important;
+  cursor: pointer;
+}
+.cardDescription{
+  text-align: center;
+  color: black !important;
+  cursor: pointer;
+}
+@media (min-width: 1200px){
+.css-1oqqzyl-MuiContainer-root {
+    max-width: 1343px !important;
+}}
+
+.css-bhp9pd-MuiPaper-root-MuiCard-root {
+  height: 23rem !important;
+}
+
+
+/* ===========Swiper Slider============= */
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+
+@media (max-width:650px) {
+  .sliderMain {
+    height: 30rem !important;
+}
+
+}
+
+@media screen and (max-width: 800px) {
+  .homeTitle {
+    font-size: 15pt;
+  }
+}
+@media screen and (max-width: 600px) {
+  .homeTitle {
+    font-size: 10pt;
+  }
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+.swiper-slide img {
+  padding-left: 0px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 1;
+}
+
+.sliderMain {
+  max-width: 65rem;
+  height: 55rem;
+  width: 80%;
+  display: flex;
+  margin: auto;
+  margin-bottom: 1vw;
+  padding: 0rem;
+
+
+  .swiper-button-next:after {
+    color: #FFD400;
+    position: absolute;
+    left: -1.3rem;
+  }
+
+  .swiper-button-prev:after {
+    color: #FFD400;
+    position: absolute;
+    left: 1.3rem;
+  }
+
+
+  .swiper-pagination-bullet {
+    background: #fff;
+  }
+
+  .innerContent {
+    position: relative;
+    top: -10px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+
+    div {
+      position: absolute;
+      bottom: 3vw;
+      left: 6vw;
+      color: #ffffff;
+
+      h1 {
+        font-size: 1.8rem;
+        text-align: left;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      img{
+        margin-top: 10vh;
+        margin-bottom: -15vh;
+        border: 2px solid red;
+      }
+    }
+
+
+    @media (max-width:600px) {
+      div {
+        position: absolute;
+        bottom: 3vw;
+        left: 6vw;
+        color: #ffffff;
+
+        h1 {
+          font-size: 1.2rem;
+          text-align: left;
+        }
+
+        p {
+          font-size: .9rem;
+        }
+      }
+    }
+
+  }
+
+}
+/* Sponsor Section */
+.sponsor-section {
+  padding: 40px 0;
+  background-color: #f9f9f9;
+  margin-bottom: 50px;
+}
+
+.sponsor-section-header {
+  background-color: #333; /* Black background */
+  color: white; /* White text */
+  font-size: 15px;
+  text-align: center;
+  padding: 10px 0;
+  font-weight: bold;
+  border: 3px solid #FFD400; /* Yellow border around the entire box */
+  width: fit-content;
+  margin: 0 auto; /* Center the header */
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.sponsor-logos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Logos wrap on smaller screens */
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.sponsor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sponsor img {
+  max-width: 100px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.sponsor img:hover {
+  transform: scale(1.2); /* Slight zoom effect on hover */
+}
+
+.sponsor p {
+  font-size: 16px;
+  color: black;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 800px) {
+  .sponsor img {
+    max-width: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sponsor-section {
+    padding: 30px 0;
+  }
+
+  .sponsor-logos {
+    gap: 15px;
+  }
+
+  .sponsor img {
+    max-width: 70px;
+  }
+}

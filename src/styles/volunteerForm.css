@@ -1,0 +1,145 @@
+/* General Body Styling */
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Form Container */
+.add-form-container {
+    max-width: 900px; /* Matches exec form */
+    margin: 50px auto;
+    padding: 30px; /* Adjusted to match exec form */
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    transition: transform 0.3s;
+}
+
+.add-form-container:hover {
+    transform: scale(1.02);
+}
+
+/* Header Styling */
+.header-info {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header-info h2 {
+    font-size: 28px; /* Match exec form header size */
+    color: #333;
+    font-weight: 600;
+}
+
+.header-info p {
+    color: #666;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Form Field Sections */
+.form-A,
+.form-B,
+.form-C,
+.form-D,
+.form-E,
+.form-F,
+.form-G {
+    margin-bottom: 25px; /* Consistent spacing between form elements */
+}
+
+/* Labels */
+.form-element label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 18px; /* Adjusted to match exec form */
+}
+
+/* Input Fields */
+.text-form,
+.text-form-c {
+    padding: 12px 15px; /* Match exec form padding */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    width: 100%; /* Full width consistency for both forms */
+    max-width: 100%; /* Ensures the inputs are as long as possible */
+    box-sizing: border-box;
+}
+
+.text-form:focus,
+.text-form-c:focus {
+    border-color: #1a73e8;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgba(26, 115, 232, 0.5);
+    outline: none;
+}
+
+/* Ensure form-element spans full width */
+.form-element {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Ensure form elements take full width */
+}
+
+/* Checkbox and Radio Group Styling */
+.radio-group,
+.checkbox-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Match exec form grid layout */
+    gap: 15px 30px; /* Consistent gap and spacing */
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.radio-group input,
+.checkbox-group input {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    accent-color: #1a73e8;
+}
+
+.checkbox-group label {
+    font-weight: 500;
+    color: #555;
+}
+
+/* Submit Button */
+.submit-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.submit-button-container button {
+    padding: 14px 28px; /* Match exec form button padding */
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.submit-button-container button:hover {
+    background-color: #155abc;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .add-form-container {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .checkbox-group {
+        grid-template-columns: 1fr; /* Adjust for smaller screens */
+    }
+}

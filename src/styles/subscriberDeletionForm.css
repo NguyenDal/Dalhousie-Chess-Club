@@ -1,0 +1,58 @@
+.add-form-container {
+    text-align: center;
+  }
+
+  .form-A,
+  .form-B,
+  .form-C {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  .text-form,
+  .text-form-c {
+    width: 100%;
+    font-size: 14pt;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  .header-info p {
+    text-align: center; 
+  }
+
+  .header-info h2 {
+    text-align: center;
+  }
+
+  .submit-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 67px;
+    margin-bottom: 65px;
+  }
+  
+  .submit-button-container button {
+    width: 100px;
+    padding: 10px;
+    background-color: #FFD400;
+    color: #000000;
+    font-weight: 550;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .submit-button-container button:hover {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  }

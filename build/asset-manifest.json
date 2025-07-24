@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/chessclub/static/css/main.18034219.css",
+    "main.js": "/chessclub/static/js/main.a0a6e1bf.js",
+    "static/js/453.9db12488.chunk.js": "/chessclub/static/js/453.9db12488.chunk.js",
+    "static/media/Logo2.png": "/chessclub/static/media/Logo2.9cccce8de235a9c65981.png",
+    "static/media/chessForWellnessProposal-Page2.jpg": "/chessclub/static/media/chessForWellnessProposal-Page2.51e7b8cef00d0c459bf6.jpg",
+    "static/media/chessForWellnessProposal-Page1.jpg": "/chessclub/static/media/chessForWellnessProposal-Page1.119f284e4030e2be48af.jpg",
+    "static/media/constitution.png": "/chessclub/static/media/constitution.378c98df547b98742263.png",
+    "static/media/tips.jpg": "/chessclub/static/media/tips.b532d7479da5ed979108.jpg",
+    "static/media/logo.png": "/chessclub/static/media/logo.4834ddb8314cef5c5946.png",
+    "static/media/emails.png": "/chessclub/static/media/emails.9fcaa31ef27e9a6d08cd.png",
+    "static/media/volunteer.jpg": "/chessclub/static/media/volunteer.660e2b74548e6c8fd26c.jpg",
+    "static/media/participation.png": "/chessclub/static/media/participation.4feaa5ccd2cbd6bc6324.png",
+    "static/media/score.jpg": "/chessclub/static/media/score.9eae8ff5e0cabd0303a1.jpg",
+    "static/media/sponsor.png": "/chessclub/static/media/sponsor.155ac562a12d80d2f4bd.png",
+    "static/media/grandPrix.webp": "/chessclub/static/media/grandPrix.924406471357c619d159.webp",
+    "static/media/FAQ.png": "/chessclub/static/media/FAQ.9c2126589efd8aab9efa.png",
+    "static/media/newspaper.png": "/chessclub/static/media/newspaper.4c31a540d2405c57100f.png",
+    "static/media/book.png": "/chessclub/static/media/book.6148db6b78968f047172.png",
+    "static/media/subscribe.jpg": "/chessclub/static/media/subscribe.02f27a981ae8753a11a2.jpg",
+    "static/media/slick.svg": "/chessclub/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/chessclub/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/chessclub/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "index.html": "/chessclub/index.html",
+    "static/media/slick.woff": "/chessclub/static/media/slick.295183786cd8a1389865.woff",
+    "main.18034219.css.map": "/chessclub/static/css/main.18034219.css.map",
+    "main.a0a6e1bf.js.map": "/chessclub/static/js/main.a0a6e1bf.js.map",
+    "453.9db12488.chunk.js.map": "/chessclub/static/js/453.9db12488.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18034219.css",
+    "static/js/main.a0a6e1bf.js"
+  ]
+}

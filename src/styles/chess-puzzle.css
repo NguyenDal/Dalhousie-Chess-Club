@@ -1,0 +1,10 @@
+.puzzle {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.puzzle p {
+    margin-top: 0;
+    font-weight: bold;
+}

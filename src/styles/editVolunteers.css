@@ -1,0 +1,96 @@
+/* General container styling for the Edit Volunteers page */
+.editPage {
+    width: 90%;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title and header styling similar to Champions Page */
+.header-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-info h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.header-info p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Styling for the volunteer list table */
+.volunteers-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.volunteers-table thead {
+    background-color: #f1f1f1;
+}
+
+.volunteers-table th, .volunteers-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.volunteers-table th {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+}
+
+.volunteers-table td {
+    font-size: 14px;
+    color: #555;
+}
+
+.volunteers-table tr:hover {
+    background-color: #f4f9ff;
+}
+
+/* Button container for actions like Edit and Delete */
+.buttons-container button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    background-color: #1a73e8;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.buttons-container button:hover {
+    background-color: #155abc;
+}
+
+.buttons-container button:last-child {
+    background-color: #d9534f;
+}
+
+.buttons-container button:last-child:hover {
+    background-color: #c9302c;
+}
+
+/* Form and editing-container styles */
+.editing {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+

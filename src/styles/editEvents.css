@@ -1,0 +1,43 @@
+.editPage-container {
+    padding: 20px;
+}
+
+.editing-container {
+    margin-top: 20px;
+}
+
+.events-table { /* Updated class selector */
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.events-table th, .events-table td { /* Updated class selector */
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.events-table th { /* Updated class selector */
+    background-color: #f2f2f2;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+
+.events-table button { /* Updated class selector */
+    background-color: #FFD400;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.events-table button:hover { /* Updated class selector */
+    background-color: #000000;
+    color: #FFD400;
+}

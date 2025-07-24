@@ -1,0 +1,84 @@
+/* Volunteer Page Styling */
+.volunteer-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.volunteer-header {
+    font-size: 2.5rem;
+    color:white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.volunteer-intro {
+    font-size: 1.25rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.volunteer-options {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.volunteer-content {
+    width: 70%; /* Increased width from 45% to 70% */
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.volunteer-content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+}
+
+.volunteer-text h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.volunteer-text p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+button {
+    background-color:  #FFD400;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color:dodgerblue;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .volunteer-content {
+        width: 90%; /* Maintain a larger width on mobile screens */
+        margin: 10px auto;
+    }
+
+    .volunteer-options {
+        display: block;
+    }
+}

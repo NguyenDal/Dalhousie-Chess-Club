@@ -1,0 +1,52 @@
+.edit-constitution-container {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: left;
+    padding: 20px;
+}
+
+.edit-constitution-container h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.edit-constitution-container p {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.upload-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.file-input {
+    padding: 8px;
+    font-size: 1em;
+}
+
+.upload-button {
+    background-color: #ffcc00;
+    color: #333;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.upload-button:hover {
+    background-color: #e6b800;
+}
+
+.file-info {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #333;
+}

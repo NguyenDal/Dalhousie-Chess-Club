@@ -1,0 +1,18 @@
+*{
+    text-align: left;
+}
+
+.faq-content{
+    padding-top: 20px;
+    padding-bottom:40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.question {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2);
+}

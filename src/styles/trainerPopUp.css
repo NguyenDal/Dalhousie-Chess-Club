@@ -1,0 +1,34 @@
+.trainer-popup-background {
+    position: fixed;
+    border-radius: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.trainer-popup-content {
+    position: relative;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    width: auto;
+    max-width: 600px;
+    min-width: 300px;
+    z-index: 1000;
+    background-color: white;
+    overflow-y: auto;
+    cursor: default;
+}
+
+.popup-content button {
+    position: absolute;
+    margin-top: 10px;
+    top: 16px;
+    right: 16px;
+}
